@@ -21,7 +21,7 @@ export default function Navbar() {
           onClick={closeMenu}
           className="text-xl font-bold tracking-tight"
         >
-          M Saad<span className="text-blue-500">.</span>
+          Muhammad Saad<span className="text-blue-650">.</span>
         </a>
 
         <div className="hidden items-center gap-8 text-sm text-slate-300 md:flex">

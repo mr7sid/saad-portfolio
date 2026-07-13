@@ -8,7 +8,7 @@ import {
 
 export default function Hero() {
   return (
-    <section className="relative min-h-screen overflow-hidden px-4 pt-24 sm:px-6 md:pt-28">
+    <section className="relative overflow-hidden px-6 pt-10 pb-20">
       <div className="absolute left-1/2 top-0 h-72 w-72 -translate-x-1/2 rounded-full bg-blue-600/20 blur-3xl sm:h-96 sm:w-96" />
 
       <div className="mx-auto grid max-w-7xl items-center gap-10 py-10 sm:py-14 lg:grid-cols-2 lg:gap-16 lg:py-20">
