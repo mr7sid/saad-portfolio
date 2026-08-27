@@ -22,16 +22,18 @@ export default function About() {
           </h2>
 
           <p className="mt-6 text-base leading-7 text-slate-400 sm:text-lg sm:leading-8">
-            I&apos;m Muhammad Saad, a final-semester Computer Science student
-            with hands-on experience in business automation, dashboard
-            development, backend operations, and workflow optimization.
+            I&apos;m Muhammad Saad, a Computer Science graduate with hands-on
+  experience in business automation, dashboard development, backend
+  operations, workflow optimization, and building custom software and
+  web solutions for business needs.
           </p>
 
           <p className="mt-5 text-base leading-7 text-slate-400 sm:text-lg sm:leading-8">
-            I work with tools such as GoHighLevel, n8n, Power BI, Looker
-            Studio, APIs, webhooks, and Meta Ads to help businesses reduce
-            manual work, organize operations, and make better decisions through
-            reliable systems and clear data.
+             I work with technologies such as GoHighLevel, n8n, Power BI, Looker
+  Studio, APIs, webhooks, and Meta Ads, along with JavaScript, Python,
+  HTML, and CSS. I use these tools to build business automations,
+  dashboards, custom software, and web solutions that reduce manual
+  work and improve business operations.
           </p>
 
           <p className="mt-5 text-base leading-7 text-slate-400 sm:text-lg sm:leading-8">
