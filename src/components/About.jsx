@@ -159,7 +159,7 @@ export default function About() {
                 />
 
                 <Stat
-                  value="6+"
+                  value="10+"
                   label="Months in GHL Automation"
                 />
 
