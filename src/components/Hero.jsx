@@ -154,7 +154,7 @@ export default function Hero() {
                 <DashboardCard
                   icon={<BriefcaseBusiness size={23} />}
                   title="Backend Operations"
-                  value="Payments • Disputes • SOPs"
+                  value="Customer Success • Payments • Disputes • SOPs"
                   tag="Operations"
                 />
               </div>
