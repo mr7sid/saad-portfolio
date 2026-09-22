@@ -6,8 +6,8 @@ import tracker from "../assets/projects/booking-tracker.png";
 import appointmentWorkflow from "../assets/projects/appointment-confirmation.png";
 import organicWorkflow from "../assets/projects/organic-workflow.png";
 import organicDashboardBlur from "../assets/projects/organic-dashboard-blur.png";
-import n8nWorkflow from "../assets/projects/n8n-job-workflow.png";
-import jobAlert from "../assets/projects/n8n-job-email.png";
+import multiCountryJobWorkflow from "../assets/projects/n8n-job-workflow.png";
+import multiCountryJobEmail from "../assets/projects/n8n-job-email.jpeg";
 import salesPerformance from "../assets/projects/sales-performance.png";
 import closerPerformance from "../assets/projects/closer-performance.png";
 import revenueDashboard from "../assets/projects/revenue-dashboard.png";
@@ -88,32 +88,44 @@ const projects = [
     images: [organicWorkflow, organicDashboardBlur],
   },
 
-  {
-    title: "AI-Powered LinkedIn Job Monitoring & Notification System",
-    category: "n8n Automation • API Integration",
-    challenge:
-      "Professionals searching for specialized HSE roles often spend hours manually checking LinkedIn for new opportunities. This repetitive process is inefficient and increases the risk of missing time-sensitive job postings.",
-    solution:
-      "Developed an n8n workflow that continuously monitors LinkedIn, extracts newly published HSE jobs, filters only relevant positions, removes duplicates, and instantly delivers job notifications via Gmail and Telegram.",
-    features: [
-      "Automated LinkedIn job monitoring",
-      "HTML data extraction",
-      "Job filtering by position",
-      "Duplicate detection",
-      "Email notifications",
-      "Telegram alerts",
-      "Scheduled execution every 3 minutes",
-    ],
-    technologies: [
-      "n8n",
-      "LinkedIn",
-      "Gmail API",
-      "Telegram Bot",
-      "JavaScript",
-      "Workflow Automation",
-    ],
-    images: [n8nWorkflow, jobAlert],
-  },
+{
+  title: "Global Job Monitoring & Alert Automation",
+  category: "n8n Automation • Global Job Intelligence",
+
+  challenge:
+    "A client needed a faster way to discover relevant job opportunities across multiple countries without repeatedly searching different markets manually. The process was time-consuming and made it easy to miss newly posted roles.",
+
+  solution:
+    "Built a multi-country n8n automation that collects job listings from several target markets, extracts and structures the job data, tags each listing by country, merges results into a single workflow, removes duplicates, filters for relevant roles, and automatically delivers matching opportunities to the client through Gmail and Telegram.",
+
+  features: [
+    "Global job monitoring across multiple countries",
+    "Country-specific job extraction",
+    "Automated HTML data parsing",
+    "Automatic country tagging",
+    "Multi-source job consolidation",
+    "Duplicate job removal",
+    "Relevant role filtering",
+    "Automated Gmail job alerts",
+    "Telegram notifications",
+    "Scheduled recurring execution",
+  ],
+
+  technologies: [
+    "n8n",
+    "HTTP Requests",
+    "HTML Extraction",
+    "JavaScript",
+    "Gmail",
+    "Telegram Bot",
+    "Workflow Automation",
+  ],
+
+  images: [
+    multiCountryJobWorkflow,
+    multiCountryJobEmail,
+],
+},
 
   {
     title: "Sales Performance & Team Analytics Dashboard",
